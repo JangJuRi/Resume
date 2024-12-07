@@ -1,4 +1,10 @@
+'use client';
+
+import {useRouter} from 'next/navigation';
+
 const Nav = () => {
+    const router = useRouter()
+
     return (
         <nav className="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
             <a className="navbar-brand js-scroll-trigger">
@@ -11,7 +17,7 @@ const Nav = () => {
                     aria-label="Toggle navigation"><span className="navbar-toggler-icon"></span></button>
             <div className="collapse navbar-collapse" id="navbarResponsive">
                 <ul className="navbar-nav">
-                    <li className="nav-item"><a className="nav-link js-scroll-trigger">About</a></li>
+                    <li className="nav-item"><a className="nav-link js-scroll-trigger" onClick={() => router.push('/Board')}>About</a></li>
                     <li className="nav-item"><a className="nav-link js-scroll-trigger">Experience</a>
                     </li>
                     <li className="nav-item"><a className="nav-link js-scroll-trigger">Education</a>

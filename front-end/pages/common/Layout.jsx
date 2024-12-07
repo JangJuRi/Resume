@@ -2,13 +2,13 @@ import Nav from './Nav';
 import { Fragment } from "react";
 import React from "react";
 
-const Layout = (props: {
-    children: React.ReactNode
-}) => {
+const Layout = (props) => {
+    const {children} = props;
+
     return (
         <Fragment>
             <Nav />
-            {props.children}
+            {children}
         </Fragment>
     );
 }
