@@ -1,7 +1,6 @@
 'use client';
 
 import { useEffect } from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Nav = () => {
     useEffect(() => {
@@ -9,8 +8,6 @@ const Nav = () => {
         if (typeof window !== 'undefined') {
             // 동적으로 부트스트랩을 로드하여 클라이언트 사이드에서만 사용
             import('bootstrap').then((bootstrap) => {
-                console.log('Bootstrap is loaded!'); // 부트스트랩이 로드된 후에 콘솔 출력
-
                 // Bootstrap ScrollSpy 초기화
                 const sideNav = document.querySelector('#sideNav');
                 if (sideNav) {
@@ -52,22 +49,17 @@ const Nav = () => {
         <nav className="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
             <a className="navbar-brand js-scroll-trigger">
                 <span className="d-block d-lg-none">Clarence Taylor</span>
-                <span className="d-none d-lg-block"><img className="img-fluid img-profile rounded-circle mx-auto mb-2" src="/images/profile.jpg"/></span>
+                <span className="d-none d-lg-block"><img className="img-fluid img-profile rounded-circle mx-auto mb-2" src="/assets/images/profile.jpg"/></span>
             </a>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
                     aria-label="Toggle navigation"><span className="navbar-toggler-icon"></span></button>
             <div className="collapse navbar-collapse" id="navbarResponsive">
                 <ul className="navbar-nav">
-                    <li className="nav-item"><a className="nav-link js-scroll-trigger" href="#about">About</a></li>
-                    <li className="nav-item"><a className="nav-link js-scroll-trigger" href="#experience">Experience</a>
-                    </li>
-                    <li className="nav-item"><a className="nav-link js-scroll-trigger" href="#education">Education</a>
-                    </li>
-                    <li className="nav-item"><a className="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
-                    <li className="nav-item"><a className="nav-link js-scroll-trigger" href="#interests">Interests</a>
-                    </li>
-                    <li className="nav-item"><a className="nav-link js-scroll-trigger" href="#awards">Awards</a></li>
+                    <li className="nav-item"><a className="nav-link js-scroll-trigger" href="#about">소개</a></li>
+                    <li className="nav-item"><a className="nav-link js-scroll-trigger" href="#education">교육 & 자격증</a></li>
+                    <li className="nav-item"><a className="nav-link js-scroll-trigger" href="#skills">기술 스택</a></li>
+                    <li className="nav-item"><a className="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
                     <hr/>
                     <div className="social-icons">
                         <a className="social-icon" href="#!"><i className="fab fa-github"></i></a>

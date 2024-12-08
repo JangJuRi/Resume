@@ -83,6 +83,7 @@
 *::before,
 *::after {
   box-sizing: border-box;
+  word-break: keep-all;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -115,7 +116,6 @@ hr {
 h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   margin-top: 0;
   margin-bottom: 0.5rem;
-  font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
   line-height: 1.2;
   color: #343a40;
@@ -10866,7 +10866,7 @@ p.lead {
 
 .subheading {
   font-weight: 700;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   margin-top: 1rem;
 }
 
@@ -10947,14 +10947,24 @@ p.lead {
   font-size: 3rem;
 }
 
+.tech-icon {
+  width: 5rem;
+  margin: 0.3rem;
+}
+
 section.resume-section {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding: 5rem 1rem;
   max-width: 75rem;
+
+  hr {
+    margin: 1rem 0;
+    color: white;
+    border-top: 1px dashed #0d6efd;
+    opacity: 0.5;
+  }
 }
 section.resume-section .resume-section-content {
   width: 100%;
@@ -10967,9 +10977,23 @@ section.resume-section .resume-section-content {
 }
 @media (min-width: 992px) {
   section.resume-section {
-    padding-left: 3rem;
-    padding-right: 3rem;
-    padding-top: 5rem;
-    padding-bottom: 5rem;
+    padding: 5rem 3rem;
+  }
+}
+
+.user-info-list {
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+
+  strong {
+    --bs-text-opacity: 1;
+    color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;
+  }
+
+  i {
+    margin-left: 0.3rem;
+    margin-right: 1rem;
   }
 }
