@@ -378,8 +378,9 @@ const Main = () => {
 
             <section className="resume-section" id="experience">
                 <div className="resume-section-content">
-                    <h3 className="text-primary mb-5 mt-5">경력</h3>
-                    <div className="career-form">
+                    <h3 className="text-primary">경력</h3>
+                    <span className="text-secondary">* 프로젝트 기간은 실제 개발 투입 기간입니다 (기획/디자인 등 사전 작업 기간 제외)</span>
+                    <div className="career-form mt-6">
                         <div className="company-info">
                             <i className="bi bi-building-fill"/> (주) 윌비소프트
                             <span className="work-date">2020.10.20 ~ </span>
