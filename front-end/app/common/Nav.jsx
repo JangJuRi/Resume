@@ -59,7 +59,7 @@ const Nav = () => {
                     <li className="nav-item"><a className="nav-link js-scroll-trigger" href="#about">소개</a></li>
                     <li className="nav-item"><a className="nav-link js-scroll-trigger" href="#education">교육 & 자격증</a></li>
                     <li className="nav-item"><a className="nav-link js-scroll-trigger" href="#skills">기술 스택</a></li>
-                    <li className="nav-item"><a className="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
+                    <li className="nav-item"><a className="nav-link js-scroll-trigger" href="#experience">경력</a></li>
                     <hr/>
                     <div className="social-icons">
                         <a className="social-icon" href="#!"><i className="fab fa-github"></i></a>

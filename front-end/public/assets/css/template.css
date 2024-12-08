@@ -7616,6 +7616,10 @@ textarea.form-control-lg {
   margin-top: 3rem !important;
 }
 
+.mt-6 {
+  margin-top: 5rem !important;
+}
+
 .mt-auto {
   margin-top: auto !important;
 }
@@ -7670,6 +7674,10 @@ textarea.form-control-lg {
 
 .mb-5 {
   margin-bottom: 3rem !important;
+}
+
+.mb-6 {
+  margin-bottom: 5rem !important;
 }
 
 .mb-auto {
@@ -10965,13 +10973,51 @@ section.resume-section {
     border-top: 1px dashed #0d6efd;
     opacity: 0.5;
   }
+
+  .career-form {
+    padding: 5rem;
+    border-radius: 12px;
+    box-shadow: 0 0 10px;
+
+    .company-info {
+      font-size: 2rem;
+
+      .work-date {
+        margin-left: 0.6rem;
+        font-size: 1rem;
+      }
+
+      .job-info {
+        margin-left: 1rem;
+        font-size: 1.4rem;
+        color: #01648e;
+      }
+    }
+
+    .career-list {
+      padding-left: 3rem;
+      border-left: 5px solid #a2c8ff;
+    }
+
+    .career-summary {
+      padding: 1rem;
+      border-radius: 10px;
+      box-shadow: 0px 3px 9px 0px #d6d6d6;
+      margin-bottom: 0.3rem;
+    }
+
+    .career-language {
+      display: inline-block;
+      margin-right: 0.8rem;
+    }
+  }
 }
 section.resume-section .resume-section-content {
   width: 100%;
 }
 
 @media (min-width: 768px) {
-  section.resume-section {
+      section.resume-section {
     min-height: 100vh;
   }
 }
