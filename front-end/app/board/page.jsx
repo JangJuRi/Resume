@@ -1,7 +1,7 @@
-const Board = () => {
+const Page = () => {
     return (
         <div>test!!!</div>
     );
 }
 
-export default Board
+export default Page

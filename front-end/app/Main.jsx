@@ -6,20 +6,20 @@ const Main = () => {
             <section className="resume-section" id="about">
                 <div className="resume-section-content">
                     <h1 className="mb-0">
-                        Clarence
-                        <span className="text-primary">Taylor</span>
+                        <span className="job-text">웹 개발자</span>
+                        <span className="text-primary ms-3">장주리</span>
                     </h1>
                     <div className="subheading mb-5">
-                        3542 Berry Street · Cheyenne Wells, CO 80810 · (317) 585-8468 ·
-                        <a href="mailto:name@email.com">name@email.com</a>
+                        #끈기 #성실 #자기개발
                     </div>
-                    <p className="lead mb-5">I am experienced in leveraging agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
-                    <div className="social-icons">
-                        <a className="social-icon" href="#!"><i className="fab fa-linkedin-in"></i></a>
-                        <a className="social-icon" href="#!"><i className="fab fa-github"></i></a>
-                        <a className="social-icon" href="#!"><i className="fab fa-twitter"></i></a>
-                        <a className="social-icon" href="#!"><i className="fab fa-facebook-f"></i></a>
-                    </div>
+                    <p className="lead mb-5">
+                        안녕하세요, 더 나은 웹 개발자가 되기 위해 꾸준히 노력하는 장주리입니다.<br/>
+                        저의 강점인 끈기와 성실함으로 이전 회사에서 근무하는 동안 정보처리기사와 SQLD 자격증을 취득했으며, 더 깊은 학문적 성장을 위해 방송통신대학교에 편입해 졸업까지
+                        단 한 번의 중단 없이 완주했습니다.<br/><br/>
+                        저는 새로운 기술을 배우는 것에 큰 흥미를 느낍니다. 근무 당시 기존에 JSP로 이루어져있던 자사 서비스를 동료들과 공부하여 Vue.js+Spring boot로 바꿔
+                        적용해보기도 하였고, 파이썬에 관심이 생겼을 때는 개인적으로 작은 게시판 프로젝트를 만들어 보기도 했고, 현재는React.js+jpa를 공부중입니다.<br/><br/>
+                        지금까지의 경험과 자세를 바탕으로 새로운 곳에서 더 큰 도전과 성장을 이루고 싶습니다.
+                    </p>
                 </div>
             </section>
             <hr className="m-0" />
