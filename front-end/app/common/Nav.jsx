@@ -48,7 +48,6 @@ const Nav = () => {
     return (
         <nav className="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
             <a className="navbar-brand js-scroll-trigger">
-                <span className="d-block d-lg-none">Clarence Taylor</span>
                 <span className="d-none d-lg-block"><img className="img-fluid img-profile rounded-circle mx-auto mb-2" src="/assets/images/profile.jpg"/></span>
             </a>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -62,7 +61,7 @@ const Nav = () => {
                     <li className="nav-item"><a className="nav-link js-scroll-trigger" href="#experience">경력</a></li>
                     <hr/>
                     <div className="social-icons">
-                        <a className="social-icon" href="#!"><i className="fab fa-github"></i></a>
+                        <a className="social-icon" href="https://github.com/JangJuRi"><i className="fab fa-github"></i></a>
                     </div>
                 </ul>
             </div>

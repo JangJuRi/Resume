@@ -73,7 +73,7 @@
   --bs-border-radius-xl: 1rem;
   --bs-border-radius-2xl: 2rem;
   --bs-border-radius-pill: 50rem;
-  --bs-link-color: #bafff9;
+  --bs-link-color: #7db1ff;
   --bs-link-hover-color: #974a2d;
   --bs-code-color: #d63384;
   --bs-highlight-bg: #fff3cd;
@@ -249,9 +249,6 @@ sup {
 a {
   color: var(--bs-link-color);
   text-decoration: underline;
-}
-a:hover {
-  color: var(--bs-link-hover-color);
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
@@ -11017,13 +11014,28 @@ section.resume-section .resume-section-content {
 }
 
 @media (min-width: 768px) {
-      section.resume-section {
+  section.resume-section {
     min-height: 100vh;
   }
 }
 @media (min-width: 992px) {
   section.resume-section {
     padding: 5rem 3rem;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .user-info-list {
+    font-size: 0.6rem !important;
+    flex-wrap: wrap;
+    display: grid !important;
+  }
+}
+
+@media (max-width: 1450px) {
+  .user-info-list {
+    font-size: 1rem !important;
+    flex-wrap: wrap;
   }
 }
 
