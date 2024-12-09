@@ -25,39 +25,39 @@ const Main = () => {
     }, []);
 
     const tools = [
-        { title: 'JAVA', src: '/assets/images/dev-tools/java.png' },
-        { title: 'JSP', src: '/assets/images/dev-tools/jsp.png' },
-        { title: 'Spring Boot', src: '/assets/images/dev-tools/spring_boot.png' },
-        { title: 'HTML', src: '/assets/images/dev-tools/html.png' },
-        { title: 'CSS', src: '/assets/images/dev-tools/css.png' },
-        { title: 'JS', src: '/assets/images/dev-tools/js.png' },
-        { title: 'Vue.js', src: '/assets/images/dev-tools/vue.png' },
-        { title: 'Nuxt.js', src: '/assets/images/dev-tools/nuxt.png' },
-        { title: 'MariaDB', src: '/assets/images/dev-tools/maria.png' },
-        { title: 'MySQL', src: '/assets/images/dev-tools/mysql.png' },
-        { title: 'ORACLE', src: '/assets/images/dev-tools/oracle.png' },
-        { title: 'GitHub', src: '/assets/images/dev-tools/github.png' },
-        { title: 'GitLab', src: '/assets/images/dev-tools/gitlab.png' },
+        { title: 'JAVA', src: '/Resume/assets/images/dev-tools/java.png' },
+        { title: 'JSP', src: '/Resume/assets/images/dev-tools/jsp.png' },
+        { title: 'Spring Boot', src: '/Resume/assets/images/dev-tools/spring_boot.png' },
+        { title: 'HTML', src: '/Resume/assets/images/dev-tools/html.png' },
+        { title: 'CSS', src: '/Resume/assets/images/dev-tools/css.png' },
+        { title: 'JS', src: '/Resume/assets/images/dev-tools/js.png' },
+        { title: 'Vue.js', src: '/Resume/assets/images/dev-tools/vue.png' },
+        { title: 'Nuxt.js', src: '/Resume/assets/images/dev-tools/nuxt.png' },
+        { title: 'MariaDB', src: '/Resume/assets/images/dev-tools/maria.png' },
+        { title: 'MySQL', src: '/Resume/assets/images/dev-tools/mysql.png' },
+        { title: 'ORACLE', src: '/Resume/assets/images/dev-tools/oracle.png' },
+        { title: 'GitHub', src: '/Resume/assets/images/dev-tools/github.png' },
+        { title: 'GitLab', src: '/Resume/assets/images/dev-tools/gitlab.png' },
     ];
 
     const studyTools = [
-        { title: 'Python', src: '/assets/images/dev-tools/python.png' },
-        { title: 'Django', src: '/assets/images/dev-tools/django.png' },
-        { title: 'React', src: '/assets/images/dev-tools/react.png' },
-        { title: 'Next.js', src: '/assets/images/dev-tools/next.png' },
-        { title: 'JPA', src: '/assets/images/dev-tools/jpa.png' },
-        { title: 'AWS', src: '/assets/images/dev-tools/aws.png' },
+        { title: 'Python', src: '/Resume/assets/images/dev-tools/python.png' },
+        { title: 'Django', src: '/Resume/assets/images/dev-tools/django.png' },
+        { title: 'React', src: '/Resume/assets/images/dev-tools/react.png' },
+        { title: 'Next.js', src: '/Resume/assets/images/dev-tools/next.png' },
+        { title: 'JPA', src: '/Resume/assets/images/dev-tools/jpa.png' },
+        { title: 'AWS', src: '/Resume/assets/images/dev-tools/aws.png' },
     ];
 
     const devtools = [
-        { title: 'IntelliJ', src: '/assets/images/dev-tools/intellij.png' },
-        { title: 'DBeaver', src: '/assets/images/dev-tools/dbeaver.png' },
-        { title: 'VSCode', src: '/assets/images/dev-tools/vscode.png' },
-        { title: 'MobaXterm', src: '/assets/images/dev-tools/mobaxterm.jpg' },
-        { title: 'Figma', src: '/assets/images/dev-tools/figma.png' },
-        { title: 'Postman', src: '/assets/images/dev-tools/postman.png' },
-        { title: 'Bruno', src: '/assets/images/dev-tools/bruno.png' },
-        { title: 'NotePad++', src: '/assets/images/dev-tools/notepad.png' },
+        { title: 'IntelliJ', src: '/Resume/assets/images/dev-tools/intellij.png' },
+        { title: 'DBeaver', src: '/Resume/assets/images/dev-tools/dbeaver.png' },
+        { title: 'VSCode', src: '/Resume/assets/images/dev-tools/vscode.png' },
+        { title: 'MobaXterm', src: '/Resume/assets/images/dev-tools/mobaxterm.jpg' },
+        { title: 'Figma', src: '/Resume/assets/images/dev-tools/figma.png' },
+        { title: 'Postman', src: '/Resume/assets/images/dev-tools/postman.png' },
+        { title: 'Bruno', src: '/Resume/assets/images/dev-tools/bruno.png' },
+        { title: 'NotePad++', src: '/Resume/assets/images/dev-tools/notepad.png' },
     ];
 
     const careers = [

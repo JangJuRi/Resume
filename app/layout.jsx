@@ -17,7 +17,7 @@ export default function RootLayout({ children }) {
         <html lang="ko">
         <head>
             <Script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" strategy="lazyOnload"></Script>
-            <link rel="stylesheet" href="/assets/css/template.css"/>
+            <link rel="stylesheet" href="/Resume/assets/css/template.css"/>
         </head>
         <body className={font.className}>
         <Nav/>
