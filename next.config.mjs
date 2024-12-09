@@ -1,13 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    webpack: (config) => {
-        config.module.rules.push({
-            test: /\.svg$/i,
-            issuer: /\.[jt]sx?$/,
-            use: ["@svgr/webpack"],
-        });
-        return config;
-    },
+    output: 'export',
+    basePath: '/Resume', // GitHub 저장소 이름으로 변경
+    assetPrefix: '/Resume/',
 };
 
 export default nextConfig;
