@@ -2,6 +2,7 @@
 const nextConfig = {
     output: 'export',
     basePath: '/Resume',
+    assetPrefix: '/Resume/',
 };
 
 export default nextConfig;
