@@ -1,7 +1,5 @@
 import Nav from "@/app/common/Nav";
 import Script from "next/script";
-import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap-icons/font/bootstrap-icons.css';
 import { Do_Hyeon } from 'next/font/google';
 
 export const metadata = {
